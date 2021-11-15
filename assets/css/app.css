@@ -1,0 +1,40 @@
+.account-card-link:hover {
+  color: blue;
+}
+
+.account-list-padding {
+  padding-left: 20% !important;
+}
+
+.hover-fade {
+  opacity: 0.5;
+}
+
+.hover-fade:hover {
+  opacity: 1;
+}
+
+.f-100-no-mobile {
+  height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .f-100-no-mobile {
+    height: 100%!important;
+  }
+}
+
+.my-4-no-mobile {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .my-4-no-mobile {
+    padding-top: inherit;
+    padding-bottom: inherit;
+  }
+}
